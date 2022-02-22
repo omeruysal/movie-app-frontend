@@ -1,0 +1,22 @@
+.formN {
+  height: 400px;
+  width: 50%;
+  min-width: 300px;
+  margin: auto;
+  margin-top: 5%;
+}
+.form-control:focus {
+  border-color: black;
+  box-shadow: none;
+}
+
+.forget-password {
+  color: white;
+  cursor: pointer;
+}
+.forget-password:hover {
+  color: grey;
+}
+.login-card {
+  background-color: black;
+}

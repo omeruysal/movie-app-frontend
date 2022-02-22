@@ -1,0 +1,112 @@
+.star-card {
+  width: 250px;
+  height: 250px;
+  margin-right: 12px;
+  margin-left: 12px;
+  margin-top: 10px;
+  background-color: #14171b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 250px;
+  position: relative;
+  transition: transform 0.2s;
+}
+.star-card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.star-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
+  object-fit: cover;
+}
+
+.star-card:hover .up-overlay-star {
+  opacity: 1;
+}
+.star-card:hover .overlay-star {
+  opacity: 1;
+}
+
+.overlay-star {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 100px;
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  bottom: 0;
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.up-overlay-star {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 96%;
+  transition: 0.5s ease;
+  opacity: 0;
+  bottom: 0;
+  font-size: 10px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 250px;
+  display: flex;
+  justify-content: space-between;
+  cursor: auto;
+}
+.delete {
+  cursor: pointer;
+}
+.edit {
+  cursor: pointer;
+}
+
+.star-title {
+  color: white;
+  align-self: center;
+}
+.star-title:hover {
+  color: grey;
+  text-decoration: inherit;
+}
+.star-username {
+  color: white;
+  cursor: pointer;
+}
+.star-username:hover {
+  color: grey;
+  text-decoration: inherit;
+}
+
+/* Star List css */
+.star-list {
+  height: 100%; /*Anasayfa boyutunu yeniden degerlendir*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  min-height: 500px;
+  padding-top: 60px;
+}
+.star-pagination {
+  color: black;
+  height: 30px;
+  width: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.star-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

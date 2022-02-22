@@ -1,0 +1,56 @@
+.movie-detail-frame {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.movie-detail-image {
+  height: 500px;
+  width: 300px;
+  border-radius: 20px;
+}
+.movie-detail-info {
+  margin-left: 20px;
+  height: 500px;
+  width: 60%;
+}
+
+.movie-detail-title {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  text-align: center;
+}
+
+.movie-detail-description {
+  /* margin: 1rem 0; */
+  font-size: 2rem;
+  color: white;
+}
+
+.movie-detail-like-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.movie-detail-like {
+  color: white;
+  margin-right: 5px;
+}
+
+.movie-detail-genre {
+  color: white;
+  font-size: 1.5rem;
+}
+.genre-section {
+  display: flex;
+  flex-direction: column;
+}
+.genre-section h6 {
+  color: grey;
+}
+.like-button {
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+}

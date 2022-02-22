@@ -1,0 +1,99 @@
+.movie-card {
+  width: 250px;
+  max-height: 350px;
+  margin-right: 12px;
+  margin-left: 12px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  background-color: #14171b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  position: relative;
+  transition: transform 0.2s;
+}
+.movie-card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.movie-card:hover .up-overlay {
+  opacity: 1;
+}
+.movie-card:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  bottom: 0;
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.up-overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 96%;
+  transition: 0.5s ease;
+  opacity: 0;
+  bottom: 0;
+  font-size: 10px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 314px;
+  display: flex;
+  justify-content: space-between;
+  cursor: auto;
+}
+.delete {
+  cursor: pointer;
+}
+.edit {
+  cursor: pointer;
+}
+
+.movie-image {
+  width: 100%;
+  max-height: 350px;
+  height: 100%;
+  border-radius: 10px;
+}
+.movie-title {
+  color: white;
+  text-align: center;
+}
+.movie-title:hover {
+  color: grey;
+  text-decoration: inherit;
+}
+.movie-username {
+  color: white;
+  cursor: pointer;
+}
+.movie-username:hover {
+  color: grey;
+  text-decoration: inherit;
+}
+/* Movie List css */
+.movie-list {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding-top: 20px;
+  min-height: 500px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,58 @@
+.comment-box {
+  /* background-color: #2d3440; */
+  background-color: white;
+  outline: black;
+  width: 80%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.comment-frame {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.comment-button {
+  height: 50%;
+  margin-left: 10px;
+}
+.comment-title {
+  color: white;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.comment-body {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comment-card {
+  background-color: #212830;
+  margin-top: 10px;
+  width: 100%;
+  min-height: 70px;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.comment-user {
+  color: grey;
+  width: 95%;
+  font-size: 14px;
+}
+.comment-description {
+  color: white;
+  width: 95%;
+}
+.comments {
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
